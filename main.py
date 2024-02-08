@@ -27,7 +27,7 @@ def parse_month(month):
         return "11"
     else:
         return "12"
-#comment
+
 
 def parse_day(user_string):
     day = user_string[user_string.find(" ") + 1:user_string.find(",")]
